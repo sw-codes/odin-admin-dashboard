@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
+
+
+div {
+    border: 1px solid green;
+}
+
+li {
+    gap: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header-top-right-div {
+    display: flex;
+}
+
+.header-bottom-left-div {
+    display: flex;
+}
+
+.header-bottom-right-div {
+    display: flex;
+}
+
+.header-bottom-right-div > button {
+    height: fit-content;
+}
+
+.user-greeting {
+    height: fit-content;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 3fr 4fr;
+}
+
+.title {
+    display: flex;
+    padding: 10px;
+}
+
+.title-img {
+    height: 40px;
+    width: 40px;
+}
+
+.sidebar-img,
+.header-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.sidebar-list-item {
+    display: flex;
+}
+
+.main-nav {
+    grid-row: 2;
+    padding: 10px;
+}
+
+.second-nav {
+    grid-row: 3;
+    align-items: start;
+    padding: 10px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects-container-div {
+    grid-row: 1 / 3;
+}
+
+.projects-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trending-container-div {
+    grid-column: 2;
+}
